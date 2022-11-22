@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        var p = 3.14;
+        var r = parseFloat(prompt("Masukkan jari jari lingkaran:"));
+        var lingkaran = new Object();
+        lj = r;
+        ll = calculatell(r).toFixed(1)
+        lk = calculatelk(r).toFixed(1);
+
+        function calculatelk(r) {
+            return (2 * p * r)
+        };
+
+        function calculatell(r) {
+            return (p * r * r)
+        };
+        document.write("Keliling lingakaran: ", ll, " cm <br>");
+        document.write("Luas lingakaran: ", lk, " cm </div>");
+    </script>
+</body>
+
+</html>

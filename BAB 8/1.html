@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        var h = ["lion", "dragon", "tiger", "griffin", "snake"];
+        i = 0
+        var showAnimal = (variable) => {
+            h.forEach(animal => {
+                document.write(h[variable], "<br>")
+                variable++
+            });
+        }
+
+        showAnimal(i)
+        h.push("rat");
+        h.push("horse");
+        document.write("<hr><br />")
+        h.sort()
+        var x = 0
+        showAnimal(x);
+    </script>
+</body>
+
+</html>

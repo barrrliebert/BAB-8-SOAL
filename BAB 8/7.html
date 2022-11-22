@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        var f = ["Anthurium", "Bougenville", "Dandelion", "Jasmine", "Lavender", "Rose", "Violet", "Dahlia", "Clover","Azalea"];
+        var r = () => {
+            var max = Math.random() * f.length
+            return f[Math.round(max)]
+        };
+        document.write(r())
+    </script>
+</body>
+
+</html>
